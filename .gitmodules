@@ -1,0 +1,4 @@
+[submodule "OllieExample/3PP/Orbotix"]
+	path = OllieExample/3PP/Orbotix
+	url = https://github.com/orbotix/Sphero-iOS-SDK.git
+	branch = Beta

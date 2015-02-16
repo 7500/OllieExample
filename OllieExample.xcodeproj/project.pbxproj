@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2342E4F11A8FF8F300ED9306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E4F01A8FF8F300ED9306 /* AppDelegate.swift */; };
+		2342E4F31A8FF8F300ED9306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E4F21A8FF8F300ED9306 /* ViewController.swift */; };
+		2342E4F61A8FF8F300ED9306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2342E4F41A8FF8F300ED9306 /* Main.storyboard */; };
+		2342E4F81A8FF8F300ED9306 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2342E4F71A8FF8F300ED9306 /* Images.xcassets */; };
+		2342E4FB1A8FF8F300ED9306 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2342E4F91A8FF8F300ED9306 /* LaunchScreen.xib */; };
+		2342E5071A8FF8F400ED9306 /* OllieExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5061A8FF8F400ED9306 /* OllieExampleTests.swift */; };
+		2342E5151A8FF93200ED9306 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2342E5121A8FF93200ED9306 /* RobotKit.framework */; };
+		2342E5161A8FF93200ED9306 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2342E5131A8FF93200ED9306 /* RobotUIKit.bundle */; };
+		2342E5171A8FF93200ED9306 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2342E5141A8FF93200ED9306 /* RobotUIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2342E5011A8FF8F400ED9306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2342E4E31A8FF8F300ED9306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2342E4EA1A8FF8F300ED9306;
+			remoteInfo = OllieExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2342E4EB1A8FF8F300ED9306 /* OllieExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OllieExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2342E4EF1A8FF8F300ED9306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2342E4F01A8FF8F300ED9306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2342E4F21A8FF8F300ED9306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2342E4F51A8FF8F300ED9306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2342E4F71A8FF8F300ED9306 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2342E4FA1A8FF8F300ED9306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2342E5001A8FF8F400ED9306 /* OllieExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OllieExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2342E5051A8FF8F400ED9306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2342E5061A8FF8F400ED9306 /* OllieExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllieExampleTests.swift; sourceTree = "<group>"; };
+		2342E5121A8FF93200ED9306 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = frameworks/RobotKit.framework; sourceTree = "<group>"; };
+		2342E5131A8FF93200ED9306 /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RobotUIKit.bundle; path = frameworks/RobotUIKit.bundle; sourceTree = "<group>"; };
+		2342E5141A8FF93200ED9306 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = frameworks/RobotUIKit.framework; sourceTree = "<group>"; };
+		2342E5181A8FF97F00ED9306 /* OllieExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OllieExample-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2342E4E81A8FF8F300ED9306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342E5171A8FF93200ED9306 /* RobotUIKit.framework in Frameworks */,
+				2342E5151A8FF93200ED9306 /* RobotKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342E4FD1A8FF8F400ED9306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2342E4E21A8FF8F300ED9306 = {
+			isa = PBXGroup;
+			children = (
+				2342E4ED1A8FF8F300ED9306 /* OllieExample */,
+				2342E5031A8FF8F400ED9306 /* OllieExampleTests */,
+				2342E4EC1A8FF8F300ED9306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2342E4EC1A8FF8F300ED9306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2342E4EB1A8FF8F300ED9306 /* OllieExample.app */,
+				2342E5001A8FF8F400ED9306 /* OllieExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2342E4ED1A8FF8F300ED9306 /* OllieExample */ = {
+			isa = PBXGroup;
+			children = (
+				2342E4F01A8FF8F300ED9306 /* AppDelegate.swift */,
+				2342E4F21A8FF8F300ED9306 /* ViewController.swift */,
+				2342E4EE1A8FF8F300ED9306 /* Supporting Files */,
+				2342E5101A8FF93200ED9306 /* 3PP */,
+			);
+			path = OllieExample;
+			sourceTree = "<group>";
+		};
+		2342E4EE1A8FF8F300ED9306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2342E5181A8FF97F00ED9306 /* OllieExample-Bridging-Header.h */,
+				2342E4F41A8FF8F300ED9306 /* Main.storyboard */,
+				2342E4F71A8FF8F300ED9306 /* Images.xcassets */,
+				2342E4F91A8FF8F300ED9306 /* LaunchScreen.xib */,
+				2342E4EF1A8FF8F300ED9306 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2342E5031A8FF8F400ED9306 /* OllieExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2342E5061A8FF8F400ED9306 /* OllieExampleTests.swift */,
+				2342E5041A8FF8F400ED9306 /* Supporting Files */,
+			);
+			path = OllieExampleTests;
+			sourceTree = "<group>";
+		};
+		2342E5041A8FF8F400ED9306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2342E5051A8FF8F400ED9306 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2342E5101A8FF93200ED9306 /* 3PP */ = {
+			isa = PBXGroup;
+			children = (
+				2342E5111A8FF93200ED9306 /* Orbotix */,
+			);
+			path = 3PP;
+			sourceTree = "<group>";
+		};
+		2342E5111A8FF93200ED9306 /* Orbotix */ = {
+			isa = PBXGroup;
+			children = (
+				2342E5121A8FF93200ED9306 /* RobotKit.framework */,
+				2342E5131A8FF93200ED9306 /* RobotUIKit.bundle */,
+				2342E5141A8FF93200ED9306 /* RobotUIKit.framework */,
+			);
+			path = Orbotix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2342E4EA1A8FF8F300ED9306 /* OllieExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2342E50A1A8FF8F400ED9306 /* Build configuration list for PBXNativeTarget "OllieExample" */;
+			buildPhases = (
+				2342E4E71A8FF8F300ED9306 /* Sources */,
+				2342E4E81A8FF8F300ED9306 /* Frameworks */,
+				2342E4E91A8FF8F300ED9306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OllieExample;
+			productName = OllieExample;
+			productReference = 2342E4EB1A8FF8F300ED9306 /* OllieExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2342E4FF1A8FF8F400ED9306 /* OllieExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2342E50D1A8FF8F400ED9306 /* Build configuration list for PBXNativeTarget "OllieExampleTests" */;
+			buildPhases = (
+				2342E4FC1A8FF8F400ED9306 /* Sources */,
+				2342E4FD1A8FF8F400ED9306 /* Frameworks */,
+				2342E4FE1A8FF8F400ED9306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2342E5021A8FF8F400ED9306 /* PBXTargetDependency */,
+			);
+			name = OllieExampleTests;
+			productName = OllieExampleTests;
+			productReference = 2342E5001A8FF8F400ED9306 /* OllieExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2342E4E31A8FF8F300ED9306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = niko;
+				TargetAttributes = {
+					2342E4EA1A8FF8F300ED9306 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2342E4FF1A8FF8F400ED9306 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2342E4EA1A8FF8F300ED9306;
+					};
+				};
+			};
+			buildConfigurationList = 2342E4E61A8FF8F300ED9306 /* Build configuration list for PBXProject "OllieExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2342E4E21A8FF8F300ED9306;
+			productRefGroup = 2342E4EC1A8FF8F300ED9306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2342E4EA1A8FF8F300ED9306 /* OllieExample */,
+				2342E4FF1A8FF8F400ED9306 /* OllieExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2342E4E91A8FF8F300ED9306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342E4F61A8FF8F300ED9306 /* Main.storyboard in Resources */,
+				2342E5161A8FF93200ED9306 /* RobotUIKit.bundle in Resources */,
+				2342E4FB1A8FF8F300ED9306 /* LaunchScreen.xib in Resources */,
+				2342E4F81A8FF8F300ED9306 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342E4FE1A8FF8F400ED9306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2342E4E71A8FF8F300ED9306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342E4F31A8FF8F300ED9306 /* ViewController.swift in Sources */,
+				2342E4F11A8FF8F300ED9306 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342E4FC1A8FF8F400ED9306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342E5071A8FF8F400ED9306 /* OllieExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2342E5021A8FF8F400ED9306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2342E4EA1A8FF8F300ED9306 /* OllieExample */;
+			targetProxy = 2342E5011A8FF8F400ED9306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2342E4F41A8FF8F300ED9306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2342E4F51A8FF8F300ED9306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2342E4F91A8FF8F300ED9306 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2342E4FA1A8FF8F300ED9306 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2342E5081A8FF8F400ED9306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2342E5091A8FF8F400ED9306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2342E50B1A8FF8F400ED9306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OllieExample/3PP/Orbotix",
+					"$(PROJECT_DIR)/OllieExample/3PP/Orbotix/RobotKit.framework/Frameworks",
+				);
+				INFOPLIST_FILE = OllieExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OllieExample/OllieExample-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		2342E50C1A8FF8F400ED9306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OllieExample/3PP/Orbotix",
+					"$(PROJECT_DIR)/OllieExample/3PP/Orbotix/RobotKit.framework/Frameworks",
+				);
+				INFOPLIST_FILE = OllieExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OllieExample/OllieExample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2342E50E1A8FF8F400ED9306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OllieExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OllieExample.app/OllieExample";
+			};
+			name = Debug;
+		};
+		2342E50F1A8FF8F400ED9306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OllieExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OllieExample.app/OllieExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2342E4E61A8FF8F300ED9306 /* Build configuration list for PBXProject "OllieExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342E5081A8FF8F400ED9306 /* Debug */,
+				2342E5091A8FF8F400ED9306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2342E50A1A8FF8F400ED9306 /* Build configuration list for PBXNativeTarget "OllieExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342E50B1A8FF8F400ED9306 /* Debug */,
+				2342E50C1A8FF8F400ED9306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2342E50D1A8FF8F400ED9306 /* Build configuration list for PBXNativeTarget "OllieExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342E50E1A8FF8F400ED9306 /* Debug */,
+				2342E50F1A8FF8F400ED9306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2342E4E31A8FF8F300ED9306 /* Project object */;
+}
